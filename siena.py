@@ -167,11 +167,13 @@ if __name__=='__main__':
             print(answer)
 
          # If you use VS code you can add your path of VS code and remove comments   
-         #         
+         
 #        elif 'code' in query:
 #            codePath="Enter Your VS Code path here"
 #            os.startfile(r"C:\Users\dell\AppData\Local\Programs\Microsoft VS Code\Code.exe")
 
+        # Similarly you can use this for other applications in your desktop 
+    
         # Shutdown desktop
         elif "log off" in statement or "sign out" in statement:
             speak("Ok , your pc will log off in 10 sec make sure you exit from all applications")
